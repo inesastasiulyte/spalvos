@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+.mother {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.firstkid{
+    width: 30%;
+    background-image: url(geltona.jpg);
+    height: 700px;
+
+}
+
+.secondtkid{
+    width: 50%;
+    background: rgb(66, 147, 233);
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+#olia{
+    color: rgb(245, 35, 168);
+    font-size: 53px;
+    margin-top: 90px;
+}
+#fasionstyle{
+    color:  rgb(252, 246, 83);
+    font-size: 14px;
+margin-top: -20px;
+letter-spacing: 0.5rem;
+  
+}
+#text{
+    color: rgb(9, 15, 190);
+    padding: 0 60px 0 60px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 1.4rem;
+}
+
+.father{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fatherkid1{
+    width: 50%;
+    height: 200px;
+    margin-top: 100px;
+    
+}
+
+.but{
+    color: rgb(63, 124, 230);
+    background:yellow;
+    font-size: 16px;
+    width: 260px;
+    height: 35px;
+    border: 1px solid rgb(82, 201, 88);
+    position: absolute;
+    z-index: 2;
+    right: 500px;
+    margin-top: 45px;
+
+
+}
+.but:hover{
+    background: rgb(245, 35, 168);
+    transition: 1s;
+    color: yellow;
+}
+.im{
+    width: 60%;
+    height: 200px;
+   margin-left: 120px;
+   position: relative;
+}
+fatherkid2{
+    width: 50%;
+    height: 200px;
+  
+}
+
+.thirdkid{
+    width: 20%;
+
+    
+    background: rgb(252, 246, 83);
+}
+
+
+#manu{
+width: 20%;
+height: 30px;
+
+}
